@@ -13,25 +13,57 @@ You can check this previous workshop: https://tech.io/playgrounds/0ccbd2817eab67
 ***
 
 ### **Use ES6 Arrow Functions (fat arrow) as much as posible**
-Why: Arrow functions create a concise expression that encapsulates a small piece of functionality.
+Why: 
+- Arrow functions create a concise expression that "encapsulates" a small piece of functionality. 
+- Additionally, arrows retain the scope of the caller inside the function eliminating the need of self = this.
+Remember: Minimize moving parts
 
 ```javascript runnable
 // old style
 var multiply = function(x,y) {
   return x * y;
 }
-console.log(multiply(2,10)); //20
+console.log(multiply(2,10)); // 20
 ```
 
 ```javascript runnable
 // Better do:
-// ES6 new style
+// ES6 style
 const multiply = (x, y) => x * y;
-console.log(multiply(2,10)); //20
+console.log(multiply(2,10)); // 20
 ```
 
 Further Information:
 [ES6 Arrow functions](https://github.com/leolanese/ES6_workshop/blob/master/2.2-Arrow%20functions.md") create a concise expression that encapsulates a small piece of functionality. Additionally, arrows retain the scope of the caller inside the function eliminating the need of self = this.
+
+
+***
+### **Use Function Delegation**
+Why: Function delegates encapsulate a method allowing functions to be composed or passed as data.
+
+```javascript runnable
+const addOne = n => n + 1;
+const isZero = n => n === 0;
+const addValues = (x,y) => x + y;
+const giveMeTheKey = x => x.age === 38;
+
+console.log(addOne(1)); // 2
+console.log(isZero(addValues(-5, 5))); // True	
+console.log([0,1,0,3,4,0].filter(isZero).length); // 3
+
+let yoGiveMeTheKey = [{ 
+  "name": "Zak",
+  "age": 25
+},{
+  "name": "Adel",
+  "age": 38
+},{
+  "name": "Yori",
+  "age": 28
+}].filter(giveMeTheKey);
+console.log(JSON.stringify(yoGiveMeTheKey));
+
+```
 
 ***
 ### **Separate the pure from the impure**
