@@ -1,9 +1,12 @@
 > "OOP vs FP: Don't be an FP programmer, don't be an OOP programmer... BE A BETTER PROGRAMMER."
 > ~ @fernando_cejas
 
-# Thinking Functionally, the mindset game:
+### To start with this workshops you need to have an undertanding of what Functional Programming is.
+### You can check this previous workshop: https://tech.io/playgrounds/0ccbd2817eab67cc4e41211af5c23d1520042/becoming-functional/welcome-
 
-## Steps to get the right mindset into Functional Programming
+# To become Functional we need to start Thinking Functionally.
+
+## Steps to get the right mindset into Functional Programming mindset
 
 ### **Separate the pure from the impure**
 If a function is impure, if posible, split it and simple as creating two functions
