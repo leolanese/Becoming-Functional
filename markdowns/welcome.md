@@ -112,7 +112,7 @@ JSON.stringify(minimum); // "{"usa":{"old":16},"spain":21,"uk":19}"
 
 ***
 
-### **Better ifs or no ifs**
+### **Better ifs or no ifs techniques**
 
 #### Expressions instead of Statements
 
@@ -136,6 +136,7 @@ console.log(sayHello(10)); // Good Morning
 const sayHello = (hour) => hour < 12 ? "Good Morning" : "Good Afternoon";
 console.log(sayHello(10)); // Good Morning
 ```
+
 https://stackblitz.com/edit/use-expressions-instead-statements?file=index.js
 
 
@@ -201,11 +202,18 @@ function getColor(type) {
 console.log(getColor('red')); // red
 ```
 
+https://stackblitz.com/edit/use-functions-no-ifs?file=index.js
+
 ***
 
-### **Avoid loops and iteration**
+### **Avoid loops and iterations**
+
 <p>A loop is an imperative control structure that is hard to reuse and difficult to plug in to other operations. 
-We can use Recursion,.map(), .reduce(), .filter(), etc </p>
+We can use: Recursion,.map(), .reduce(), .filter(), etc </p>
+Why: 
+- make the code clean
+- make the logic reusable
+- minimizing moving parts
 
 ```javascript runnable
 // Old style
