@@ -112,9 +112,9 @@ JSON.stringify(minimum); // "{"usa":{"old":16},"spain":21,"uk":19}"
 
 ***
 
-### **Expressions instead of Statements: Better ifs or no ifs. **
+### **Better ifs or no ifs**
 
-#### Use if/else ternary operator
+#### Expressions instead of Statements
 
 ```javascript runnable
 // old style: 'Statement'
@@ -134,11 +134,12 @@ console.log(sayHello(10)); // Good Morning
 ```javascript runnable
 // Better do: 'Expression'
 const sayHello = (hour) => hour < 12 ? "Good Morning" : "Good Afternoon";
-
-console.log(getSalutation(10)); // Good Morning
+console.log(sayHello(10)); // Good Morning
 ```
+https://stackblitz.com/edit/use-expressions-instead-statements?file=index.js
 
-#### Avoid Nested ifs/complex || conditions
+
+#### Better ifs, no ifs: Avoid Nested ifs/complex || conditions
 
 ```javascript runnable
 // old style
@@ -159,7 +160,7 @@ const myvar =1;
 [1,5,7,22].includes(myvar); // true
 ```
 
-### Better ifs, no ifs. Use functions
+### Better ifs, no ifs: Use functions
 
 ```javascript runnable
 // old school 
@@ -177,7 +178,7 @@ if (color) {
   } else {
     console.log('yellow');
   }
-}
+} // red
 ```
 
 ```javascript runnable
@@ -197,8 +198,7 @@ function getColor(type) {
   };
   return (colors[type] || colors['default'])();
 }
-
-getColor('red'); // red
+console.log(getColor('red')); // red
 ```
 
 ***
