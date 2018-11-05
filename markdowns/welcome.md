@@ -64,6 +64,8 @@ let yoGiveMeTheKey = [{
 console.log(JSON.stringify(yoGiveMeTheKey));
 
 ```
+https://stackblitz.com/edit/function-delegation
+
 
 ***
 ### **Separate the pure from the impure**
@@ -110,14 +112,13 @@ JSON.stringify(minimum); // "{"usa":{"old":16},"spain":21,"uk":19}"
 
 ***
 
-### **Better or no ifs. Expressions instead of Statements**
+### **Expressions instead of Statements: Better ifs or no ifs. **
 
 #### Use if/else ternary operator
 
 ```javascript runnable
-// old style
-// Statement
-const getSalutation = function(hour) {
+// old style: 'Statement'
+const sayHello = function(hour) {
     var salutation; // temp value
     if (hour < 12) {
       salutation = "Good Morning";
@@ -127,12 +128,12 @@ const getSalutation = function(hour) {
     }
     return salutation; // mutated value
   } 
+console.log(sayHello(10)); // Good Morning
 ```
 
 ```javascript runnable
-// Better do:
-// Expression
-const getSalutation = (hour) => hour < 12 ? "Good Morning" : "Good Afternoon";
+// Better do: 'Expression'
+const sayHello = (hour) => hour < 12 ? "Good Morning" : "Good Afternoon";
 
 console.log(getSalutation(10)); // Good Morning
 ```
