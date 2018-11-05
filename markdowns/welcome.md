@@ -1,8 +1,12 @@
 > "OOP vs FP: Don't be an FP programmer, don't be an OOP programmer... BE A BETTER PROGRAMMER."
 > ~ @fernando_cejas
 
-### To start with this workshops you need to have an undertanding of what Functional Programming is.
-### You can check this previous workshop: https://tech.io/playgrounds/0ccbd2817eab67cc4e41211af5c23d1520042/becoming-functional/welcome-
+***
+
+To start with this workshops you need to have an undertanding of what Functional Programming is.
+You can check this previous workshop: https://tech.io/playgrounds/0ccbd2817eab67cc4e41211af5c23d1520042/becoming-functional/welcome-
+
+***
 
 # To become Functional we need to start Thinking Functionally.
 
