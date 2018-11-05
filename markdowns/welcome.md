@@ -8,10 +8,32 @@ You can check this previous workshop: https://tech.io/playgrounds/0ccbd2817eab67
 
 ***
 
-# To become Functional we need to start Thinking Functionally.
+# To become Functional we need to start Thinking Functionally. Lets go throw some steps to get the right mindset into Functional Programming mindset to become into functional.
 
-## Steps to get the right mindset into Functional Programming mindset
+***
 
+### **Use ES6 Arrow Functions (fat arrow) as much as posible**
+Why: Arrow functions create a concise expression that encapsulates a small piece of functionality.
+
+```javascript runnable
+// old style
+var multiply = function(x,y) {
+  return x * y;
+}
+console.log(multiply(2,10)); //20
+```
+
+```javascript runnable
+// Better do:
+// ES6 new style
+const multiply = (x, y) => x * y;
+console.log(multiply(2,10)); //20
+```
+
+Further Information:
+[ES6 Arrow functions](https://github.com/leolanese/ES6_workshop/blob/master/2.2-Arrow%20functions.md") create a concise expression that encapsulates a small piece of functionality. Additionally, arrows retain the scope of the caller inside the function eliminating the need of self = this.
+
+***
 ### **Separate the pure from the impure**
 If a function is impure, if posible, split it and simple as creating two functions
 
@@ -145,28 +167,6 @@ function getColor(type) {
 
 getColor('red'); // red
 ```
-
-***
-
-### **Use ES6 Arrow Functions (fat arrow)**
-
-```javascript runnable
-// old style
-var multiply = function(x,y) {
-  return x * y;
-}
-console.log(multiply(2,10)); //20
-```
-
-```javascript runnable
-// Better do:
-// ES6 new style
-const multiply = (x, y) => x * y;
-console.log(multiply(2,10)); //20
-```
-
-Further Information:
-[ES6 Arrow functions](https://github.com/leolanese/ES6_workshop/blob/master/2.2-Arrow%20functions.md") create a concise expression that encapsulates a small piece of functionality. Additionally, arrows retain the scope of the caller inside the function eliminating the need of self = this.
 
 ***
 
