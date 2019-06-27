@@ -4,7 +4,8 @@ This is the seconnd part of the Funtional Programming introduction, and a more p
 
 > If you dind't see the "Functional Programming mindset" - An introduction to Functional Programming - leolanese/FP, please have a look at: https://github.com/leolanese/FP
 
-
+Presentation: Becoming Functional
+https://github.com/leolanese/Becoming-functional
 --
 
 ## { 'L e o   L a n e s e',
