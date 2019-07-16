@@ -12,6 +12,13 @@ You can check this previous workshop: https://tech.io/playgrounds/0ccbd2817eab67
 
 ***
 
+### OK first: In Functional Programming, you don’t just write Pure Functions.
+
+Side effects are good. Functional Languages cannot eliminate Side Effects, they can only confine them. 
+The goal instead is to minimize the amount of impure code
+
+***
+
 ### **Use ES6 Arrow Functions (fat arrow) as much as posible**
 Why: 
 - Arrow functions create a concise expression that "encapsulates" a small piece of functionality. 
