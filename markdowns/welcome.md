@@ -226,14 +226,18 @@ https://stackblitz.com/edit/use-functions-no-ifs?file=index.js
 
 ***
 
+
 ### **Avoid loops and iterations**
 
+Ej1)
 <p>A loop is an imperative control structure that is hard to reuse and difficult to plug in to other operations. 
 We can use: Recursion,.map(), .reduce(), .filter(), etc </p>
+
 Why: 
 - make the code clean
 - make the logic reusable
 - minimizing moving parts
+- make it more reusable and portable
 
 ```javascript runnable
 // Old style
@@ -254,7 +258,6 @@ for (var i = 0, arr = []; i < ao.length; i++) {
   arr.push(ao[i].name); // mutation sucks :(
 };  
 console.log(arr); // ["Zak", "Adel", "Yori"]
-
 ```
 
 ```javascript runnable
@@ -274,6 +277,7 @@ const x = (x) => x.name; // minimizing moving parts
 ```
 
 
+Ej2)
 ```javascript runnable
 // Using .some to break a loop
 const isBiggerThan10 = numb => numb > 10;
@@ -291,6 +295,28 @@ console.log([12, 5, 8, 1, 4].every(isSmallerThan10)); // false
 Tip:
 Think about results over steps. Next time you are about to iterate something, stop, and think about: 
 "How this can look if I don't iterate this?" [Loops & Iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration "Loops & Iteration")
+
+
+### loops and other imperatives things
+
+
+```javascript runnable
+// simple loop construct
+var acc = 0;
+for (var i = 1; i <= 10; ++i)
+    acc += i;
+console.log(acc); // prints 55
+// without loop construct or variables (recursion)
+function sumRange(start, end, acc) {
+    if (start > end)
+        return acc;
+    return sumRange(start + 1, end, acc + start)
+}
+console.log(sumRange(1, 10, 0)); // prints 55
+```
+
+Tip: Notice how recursion, the functional approach, accomplishes the same as the for loop by calling itself with a new start (start + 1) and a new accumulator (acc + start). It doesn’t modify the old values. Instead it uses new values calculated from the old.
+
 
 ***
 
