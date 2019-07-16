@@ -573,6 +573,10 @@ function doubleAndAddTen(x) {
 }
 ```
 
+> There are no variables in Functional Programming.
+
+Stored values are still called variables because of history but they are constants, i.e. once x takes on a value, it’s that value for life. Don’t worry, x is usually a local variable so its life is usually short. But while it’s alive, it can never change.
+
 ***
 
 ### **Sequenced Side Effects**
