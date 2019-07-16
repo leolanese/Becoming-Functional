@@ -73,6 +73,19 @@ If a function is impure, if posible, split it and simple as creating two functio
 
 ***
 
+### All useful Pure Functions must return something
+
+```javascript
+function addNoReturn(x, y) {
+    var z = x + y
+}
+```
+
+Notice how this function doesn’t return anything. It adds x and y and puts it into a variable z but doesn’t return it.
+It’s a pure function since it only deals with its inputs. It does add, but since it doesn’t return the results, it’s useless.
+
+***
+
 ### **Don't change objects in functions**
 
 ```javascript runnable
