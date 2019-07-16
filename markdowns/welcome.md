@@ -8,7 +8,7 @@ You can check this previous workshop: https://tech.io/playgrounds/0ccbd2817eab67
 
 ***
 
-# To become Functional we need to start Thinking Functionally. Lets go throw some steps to get the right mindset into Functional Programming mindset to become into functional.
+> To become Functional we need to start Thinking Functionally. Lets go throw some steps to get the right mindset into Functional Programming mindset to become into functional.
 
 ***
 
