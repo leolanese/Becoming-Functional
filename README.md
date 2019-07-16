@@ -1,6 +1,6 @@
 # Becoming functional
 
-This is the seconnd part of the Funtional Programming introduction, and a more practical approach than theory one.
+Learning Functional Programming takes a while. Please be patient. This is the second part of the Funtional Programming introduction, and a more practical approach than theory one.
 
 > If you dind't see the "Functional Programming mindset" - An introduction to Functional Programming - leolanese/FP, please have a look at: https://github.com/leolanese/FP
 
