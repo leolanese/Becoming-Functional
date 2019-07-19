@@ -509,12 +509,6 @@ sequencedSideEffect(); // One, Two
 
 ***
 
-### **Avoid impure methods**
-
-**Date (Date.now)**, **Math.random** (since it always produces a new value no matter what the inputs are), console.log(), this, global variables, exceptions thrown, etc. In fact, because JavaScript passes object references around, every function that takes an object or array is potentially subject to impurity. 
-
-*** 
-
 ### **Bend your language to the problem, not the problem to the language**
 
 The most obvios tip is: Please, take advantage of all the language features, if you have something that it is already done, well: use it. **Do not spend time working on languague problem, focus on bussiness goal issues.**
