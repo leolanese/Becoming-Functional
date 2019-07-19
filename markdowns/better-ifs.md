@@ -2,7 +2,7 @@
 
 ### **Better ifs or no ifs techniques**
 
-## Keep it simple
+## Keep i'f' simple
 
 // instead of
 ```javascript
@@ -18,11 +18,54 @@ condition && dosomething();
 
 ---
 
-### Iterate search in object values throw Array (object of array search)
+### if it is null or empty
+
+// instead of
+```javascript
+if (y != null && y != '') {}
+```
+// better do
+```javascript
+if (y){}
+```
 
 
+---
 
+### keep i'f' and else simple
 
+// instead of
+```javascript
+if (a === b) {
+  return true;
+} else {
+  return false;
+}
+```
+
+// better do
+```javascript
+return a === b;
+```
+
+---
+
+### Ternary operator with return statements
+
+```javascript
+if ( 'undefined' !== typeof nn['key'] ) {
+  var gradeObject.title;
+}
+if (gradeObject.value === gradeValue) {
+  return gradeObject.title;
+}
+```
+
+// better do
+```javascript
+return gradeObject.title ?
+'undefined' !== typeof nn['key'] : gradeObject.value === gradeValue;
+```
 ---
 
 ### Ternary operator with return statements: return boolean ? ‘foo’ : ‘bar’;
