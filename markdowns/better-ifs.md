@@ -15,6 +15,14 @@ if (condition) {
 ```javascript
 condition && dosomething();
 ```
+
+---
+
+### Iterate search in object values throw Array (object of array search)
+
+
+
+
 ---
 
 ### Ternary operator with return statements: return boolean ? ‘foo’ : ‘bar’;
