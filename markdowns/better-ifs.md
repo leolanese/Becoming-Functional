@@ -48,6 +48,54 @@ if (a === b) {
 return a === b;
 ```
 
+
+---
+### nested ifs (x3 level)
+
+// instead of
+```javascript
+// pattern
+function sayHello () {
+  console.log( "sayHello" );
+}
+function giveSomeNews () {
+  console.log( "giveSomeNews" );
+}
+function sayBye () {
+  console.log( "sayBye" );
+}
+
+// declaring name for testing
+let name = "patrick";
+// var name = "jane";
+
+if( name === "patrick" ) {
+    sayHello();
+  } else if( name === "jane" ) {
+    giveSomeNews();
+  } else {
+    sayBye();
+}
+
+// sayHello
+```
+
+// better do: actions declaration
+// better do: Method lookup using Command
+```javascript
+// actions declaration
+var greetings = {
+  "patrick": sayHello,
+  "john": giveSomeNews,
+  "jane": sayBye
+};
+
+greetings["patrick"](); // sayHello
+```
+
+
+
+
 ---
 
 ### Ternary operator with return statements
