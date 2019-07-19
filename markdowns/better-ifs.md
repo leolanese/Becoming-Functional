@@ -91,7 +91,7 @@ console.log(getColor('red')); // red
 
 https://stackblitz.com/edit/use-functions-no-ifs?file=index.js
 
-***
+---
 
 ### Conditionally adding elements inside Array literals
 
@@ -127,4 +127,23 @@ const obj = {
 };
 ```
 
+### Breaking or continuing loop: from better-ifs to no-ifs
+Using .some() we get iteration functionally similar to .forEach but with the ability to break
+through return instead. Also there is .every, which can be used. We have to return the opposite
+boolean compared to .some()
 
+// Using .some() to break a loop
+```javascript
+const isBiggerThan10 = numb => numb > 10;
+[2, 5, 8, 1, 4].some(isBiggerThan10); // false
+[12, 5, 8, 1, 4].some(isBiggerThan10); // true
+```
+
+// Using .every() to break a loop
+```javascript
+const isSmallerThan10 = num => num < 10;
+console.log([2, 5, 8, 1, 4].every(isSmallerThan10)); // true
+console.log([12, 5, 8, 1, 4].every(isSmallerThan10)); // false
+```
+
+---
