@@ -2,6 +2,83 @@
 
 ### **Better ifs or no ifs techniques**
 
+## Keep it simple
+
+// instead of
+```javascript
+if (condition) {
+  dosomething();
+}
+```
+
+// better do
+```javascript
+condition && dosomething();
+```
+---
+
+### Ternary operator with return statements: return boolean ? ‘foo’ : ‘bar’;
+
+// instead of
+```javascript
+if ( 'undefined' !== typeof nn['key'] ) {
+  var gradeObject.title;
+}
+if (gradeObject.value === gradeValue) {
+ return gradeObject.title;
+}
+```
+
+// better do
+```javascript
+return gradeObject.title ?
+        'undefined' !== typeof nn['key'] : gradeObject.value === gradeValue;
+```        
+---
+
+###  Using operations elements elements
+
+// instead of
+```javascript
+const values = [1, 2, 3];
+let sum = 0;
+for (const x of values) {
+  sum = sum + x;
+}
+```
+
+// better do
+```javascript
+const values = [1, 2, 3];
+const add = (x, y) => x + y;
+const sum = values.reduce(add);
+```
+
+---
+
+### Setting properties 
+
+// instead of
+```javascript
+const obj = {
+	one: 1
+}
+obj.two = 2
+```
+
+// better do
+```javascript
+const obj = {
+	one: 1
+}
+const newObj = {
+	...obj,
+	two: 2
+}
+```
+
+---
+
 #### Expressions instead of Statements
 ```javascript runnable
 // old style: 'Statement'
