@@ -57,3 +57,16 @@ console.log(kittens); // ["Waffles", "Pickles"]
 
 Further Information: [Array.prototype.filter\(\)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
+
+---
+
+### Using .some to break a loop 
+
+```javascript
+const isBiggerThan10 = numb => numb > 10;
+[2, 5, 8, 1, 4].some(isBiggerThan10);  // false
+[12, 5, 8, 1, 4].some(isBiggerThan10); // true
+```
+
+
+
