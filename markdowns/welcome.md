@@ -28,31 +28,31 @@ FP requires you to think a bit differently about how to approach the tasks you�
 ***
 ## Sugestions about: How to do FP and pure way:
 
-### In Functional Programming, you don’t just write Pure Functions.
+### - In Functional Programming, you don’t just write Pure Functions.
 Side effects are good. Functional Languages cannot eliminate Side Effects, they can only confine them. 
 The goal instead is to minimize the amount of impure code
 
-### In Functinal Programming, you can write your code and then functional decomposition it.
+### - In Functinal Programming, you can write your code and then functional decomposition it.
 Functional decomposition is athe process of taking a complex process and breaking it down into its smaller, simpler parts.
 
-### You are already doing FP, but you might not known.
+### - You are already doing FP, but you might not known.
 Actually you may be using few features already and you don't know .
 
-### No assignment. 
+### - No assignment. 
 Changing the value of something already created with = (var statements with = are fine)
 
-### Don't iterate (for loop, while, etc), use HoF .map(), .reduce(), .filter() instead for iterating through an array. (use recursion instead with tramposling function or high order functions)
+### - Don't iterate (for loop, while, etc), use HoF .map(), .reduce(), .filter() instead for iterating through an array. (use recursion instead with tramposling function or high order functions)
 
-### Freeze all objects and arrays
+### - Freeze all objects and arrays
 Since modifying an existing object or array would be a stateful expression
 
-### Avoid using Date (since it always produces a new value no matter what the inputs are), avoid uisng Math.random (same reason as Date) and avoid using mutation methods.
+### - Avoid using Date (since it always produces a new value no matter what the inputs are), avoid uisng Math.random (same reason as Date) and avoid using mutation methods.
 
-### A JavaScript Function is a JavaScript Variable until it is executed (that's to say we can encapsulate it and keep it until evaluated).
+### - A JavaScript Function is a JavaScript Variable until it is executed (that's to say we can encapsulate it and keep it until evaluated).
 
-### Use expressions instead statements (don't use if, use shorthand if)
+### - Use expressions instead statements (better don't use if, use shorthand if)
 
-### Use function delegation
+### - Use function delegation
 
 
 
