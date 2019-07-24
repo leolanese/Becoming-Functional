@@ -1,6 +1,6 @@
 # Becoming Functional
 
-### To become Functional we need to start Thinking Functionally. Lets go throw some steps to get the right mindset into Functional Programming mindset to become into functional.
+> To become Functional we need to start Thinking Functionally. Lets go throw some steps to get **the right mindset into Functional Programming mindset to become into functional**.
 
 Before start:
 To start with this workshops you need to have an undertanding of what Functional Programming is.
