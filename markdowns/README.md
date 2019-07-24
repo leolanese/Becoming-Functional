@@ -46,6 +46,32 @@ Since modifying an existing object or array would be a stateful expression
 
 In a functional program, input flows through a set of functions. Each function operates on its input and produces some output. Functional style discourages functions with side effects that modify internal state or make other changes that aren’t visible in the function’s return value. Functions that have no side effects at all are called purely functional. Avoiding side effects means not using data structures that get updated as a program runs; every function’s output must only depend on its input.
 
+### - Use ES6 Arrow Functions (fat arrow) as much as posible
+
+* Arrow functions create a concise expression that "encapsulates" a small piece of functionality. 
+* Create a concise expression that encapsulates a small piece of functionality. Additionally, arrows retain the scope of the caller inside the function eliminating the need of self = this.
+* Additionally, arrows retain the scope of the caller inside the function eliminating the need of self = this.
+
+Remember: Minimize moving parts
+
+```javascript 
+// old style 
+var multiply = function(x,y) { 
+  return x * y; } 
+  console.log(multiply(2,10)); // 20
+}
+```
+
+```javascript
+// Better do:
+// ES6 style
+const multiply = (x, y) => x * y;
+console.log(multiply(2,10)); // 20
+```
+
+Further Information: 
+[ES6 Arrow functions]([https://github.com/leolanese/ES6\_workshop/blob/master/2.2-Arrow functions.md](https://github.com/leolanese/ES6_workshop/blob/master/2.2-Arrow%20functions.md)") 
+
 
 ---
 
