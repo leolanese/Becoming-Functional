@@ -7,6 +7,7 @@ To start with this workshops you need to have an undertanding of what Functional
 You can check this previous workshop: https://tech.io/playgrounds/0ccbd2817eab67cc4e41211af5c23d1520042/becoming-functional/welcome-
 
 ---
+
 ### Separate moving parts:
 
 In a functional program, input flows through a set of functions. Each function operates on its input and produces some output.
