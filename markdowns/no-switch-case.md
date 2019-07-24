@@ -1,46 +1,6 @@
 ### no switch-case
 
-// instead of
-```javascript
-var color = 'red'
-if (color) {
-  if (color === 'black') {
-  console.log('black');
-  } else if (color === 'red') {
-  console.log('red');
-  } else if (color === 'blue') {
-  console.log('blue');
-  } else if (color === 'green') {
-  console.log('green');
-  } else {
-  console.log('no color');
-  }
-}
-```
 
-// better do: From Procedural Programming to OOP + FE using an object literal
-```javascript
-let black = function(){ alert('black') };
-let red = function(){ alert('red') };
-let blue = function(){ alert('blue') };
-let green = function(){ alert('green') };
-
-function getColor(type) {
-const colors = {
-  'black': black,
-  'red': red,
-  'blue': blue,
-  'green': green,
-  'default': function() {
-    return 'no color';
-  }
-  };
-  return (colors[type] || colors['default'])();
-}
-getColor('red'); // alert('red')
-```
-
----
 
 // instead of
 ```javascript
