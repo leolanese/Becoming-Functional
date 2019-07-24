@@ -1,6 +1,54 @@
 ### no switch-case
 
 
+// instead of
+```javascript
+var color = 'black';
+switch (color) {
+    case "black":
+        alert('black')
+        break;
+    case "green":
+        alert('green')
+        break;
+    case "red":
+        alert('red')
+        break;
+    case "blue":
+        alert('blue')
+        break;
+    case "white":
+        alert('white')
+        break;
+    default:
+        alert('no color')
+}; // alert('black')
+```
+
+// better do: From Procedural Programming to OOP + FE using an object literal approach
+```javascript
+const black = () => alert('black');
+const red = () => alert('red');
+const blue = () => alert('blue');
+const green = () => alert('green');
+
+function getColor(type) {
+  const colors = {
+    'black': black,
+    'red': red,
+    'blue': blue,
+    'green': green,
+    'default': function(){alert('no color')}
+  };
+  return (colors[type] || colors['default'])();
+}
+getColor('black'); // alert('black')
+```
+
+
+---
+
+
 
 // instead of
 ```javascript
