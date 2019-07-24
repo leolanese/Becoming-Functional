@@ -224,45 +224,48 @@ const myvar =1;
 [1,5,7,22].includes(myvar); // true
 ```
 
+---
+
 ### Better ifs, no ifs: Use functions
 
-```javascript runnable
-// old school 
+// instead of
+```javascript
 var color = 'red'
-
 if (color) {
   if (color === 'black') {
-    console.log('black');
+  console.log('black');
   } else if (color === 'red') {
-    console.log('red');
+  console.log('red');
   } else if (color === 'blue') {
-    console.log('blue');
+  console.log('blue');
   } else if (color === 'green') {
-    console.log('green');
+  console.log('green');
   } else {
-    console.log('yellow');
+  console.log('no color');
   }
-} // red
+}
 ```
 
-```javascript runnable
-// Better do:
-const red = function(){ return 'red' };
-const blue = function(){ return 'blue' };
-const yellow = function(){ return 'yellow' };
+// better do: From Procedural Programming to OOP + FE using an object literal
+```javascript
+let black = function(){ alert('black') };
+let red = function(){ alert('red') };
+let blue = function(){ alert('blue') };
+let green = function(){ alert('green') };
 
 function getColor(type) {
-  let colors = {
-    'red': red,
-    'blue': blue,
-    'yellow': yellow,
-    'default': function() {
-      return 'Another color';
-    }
+const colors = {
+  'black': black,
+  'red': red,
+  'blue': blue,
+  'green': green,
+  'default': function() {
+    return 'no color';
+  }
   };
   return (colors[type] || colors['default'])();
 }
-console.log(getColor('red')); // red
+getColor('red'); // alert('red')
 ```
 
 https://stackblitz.com/edit/use-functions-no-ifs?file=index.js
