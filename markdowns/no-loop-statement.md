@@ -1,11 +1,11 @@
-## no-loop-statement: for, for...of, for...in, while, and do...while.
+# no-loop-statement: for, for...of, for...in, while, and do...while.
 
-### no for
+## no for
 
-In functional programming we want everthing to be an expression that returns a value. 
-Loops in typescript are statements so they are not a good fit for a functional programming style. 
+In functional programming we want everthing to be an expression that returns a value. Loops in typescript are statements so they are not a good fit for a functional programming style.
 
 // instead of
+
 ```javascript
 const numbers = [1, 2, 3];
 const double = [];
@@ -15,36 +15,21 @@ for (let i = 0; i < numbers.length; i++) {
 ```
 
 // better do
+
 ```javascript
 const numbers = [1, 2, 3];
 const double = numbers.map(n => n * 2);
 ```
 
-Further information:
-https://hackernoon.com/rethinking-javascript-death-of-the-for-loop-c431564c84a8
+Further information: [https://hackernoon.com/rethinking-javascript-death-of-the-for-loop-c431564c84a8](https://hackernoon.com/rethinking-javascript-death-of-the-for-loop-c431564c84a8)
 
+## if inside for-loop \(bad idea\)
 
----
-### if inside for-loop (bad idea)
+`````javascript runnable const cats = [ { name: 'Mojo', months: 84 }, { name: 'Mao-Mao', months: 34 }, { name: 'Waffles', months: 4 }, { name: 'Pickles', months: 6 } ] var kittens = [] // old```for loop\` :\( for \(let i = 0; i &lt; cats.length; i++\) { if \(cats\[i\].months &lt; 7\) { kittens.push\(cats\[i\].name\) } }
 
-```javascript runnable
-const cats = [
-  { name: 'Mojo',    months: 84 },
-  { name: 'Mao-Mao', months: 34 },
-  { name: 'Waffles', months: 4 },
-  { name: 'Pickles', months: 6 }
-]
-var kittens = []
-// old `for loop` :(
-for (let i = 0; i < cats.length; i++) {
-  if (cats[i].months < 7) {
-    kittens.push(cats[i].name)
-  }
-}
+console.log\(kittens\); // \["Waffles", "Pickles"\]
 
-console.log(kittens); // ["Waffles", "Pickles"]
-```
-
+```text
 // better do
 ```javascript 
 // better do :)
@@ -66,7 +51,5 @@ const kittens = getKittenNames(cats);
 console.log(kittens); // ["Waffles", "Pickles"]
 ```
 
-Further Information:
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">Array.prototype.filter()</a>
+Further Information: [Array.prototype.filter\(\)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
-***

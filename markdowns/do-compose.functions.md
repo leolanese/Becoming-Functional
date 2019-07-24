@@ -1,18 +1,14 @@
-### function composition: composing functions (to chain)
+# function composition: composing functions \(to chain\)
 
 > Composition means that we attach multiple functions together, in a pipe.
 
-Composing the functions is actually the easiest part of the whole process.
-Function composition requires you to write your functions in a composable way.
-After you have created your functions to be composable, they just kind of stick together.
+Composing the functions is actually the easiest part of the whole process. Function composition requires you to write your functions in a composable way. After you have created your functions to be composable, they just kind of stick together.
 
 > Composition is the backbone of modularity in FP
 
-Using RxJS we normally chain functions using pipe,
-Also, pipe return the Observable result of all of the operators having been called in the order they were passed in.
+Using RxJS we normally chain functions using pipe, Also, pipe return the Observable result of all of the operators having been called in the order they were passed in.
 
->Composition f(g(x)) and Pipe are both function composition, what is change is the order:
-> Composition: inside out, Pipe: outside in.
+> Composition f\(g\(x\)\) and Pipe are both function composition, what is change is the order: Composition: inside out, Pipe: outside in.
 
 ```javascript
 const cart = [

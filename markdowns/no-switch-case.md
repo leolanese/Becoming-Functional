@@ -1,7 +1,7 @@
-### no switch-case
-
+# no switch-case
 
 // instead of
+
 ```javascript
 var color = 'black';
 switch (color) {
@@ -26,6 +26,7 @@ switch (color) {
 ```
 
 // better do: From Procedural Programming to OOP + FE using an object literal approach
+
 ```javascript
 const black = () => alert('black');
 const red = () => alert('red');
@@ -45,12 +46,8 @@ function getColor(type) {
 getColor('black'); // alert('black')
 ```
 
-
----
-
-
-
 // instead of
+
 ```javascript
 switch("first") {
   case("first"):
@@ -61,6 +58,7 @@ switch("first") {
 ```
 
 // better do: Object Literals
+
 ```javascript
 const dogSwitch = (breed) => ({
   "border": "Border Collies are good boys and girls.",
@@ -70,12 +68,10 @@ const dogSwitch = (breed) => ({
 dogSwitch("border") // "Border Collies are good boys and girls."
 ```
 
-LINK:
-https://medium.com/chrisburgin/rewriting-javascript-replacing-the-switch-statement-cfff707cf045
-
----
+LINK: [https://medium.com/chrisburgin/rewriting-javascript-replacing-the-switch-statement-cfff707cf045](https://medium.com/chrisburgin/rewriting-javascript-replacing-the-switch-statement-cfff707cf045)
 
 // instead of
+
 ```javascript
 var day;
 switch (new Date().getDay()) {
@@ -102,8 +98,8 @@ switch (new Date().getDay()) {
 }
 ```
 
-
 // better do
+
 ```javascript
 const getDay = switchcase({
     0: 'Sunday',
@@ -118,8 +114,5 @@ const getCurrentDay = () => getDay(new Date().getDay())
 const day = getCurrentDay()
 ```
 
-LINK:
-https://hackernoon.com/rethinking-javascript-eliminate-the-switch-statement-for-better-code-5c81c044716d
-
----
+LINK: [https://hackernoon.com/rethinking-javascript-eliminate-the-switch-statement-for-better-code-5c81c044716d](https://hackernoon.com/rethinking-javascript-eliminate-the-switch-statement-for-better-code-5c81c044716d)
 
