@@ -45,3 +45,19 @@ Since modifying an existing object or array would be a stateful expression
 ### - Separate moving parts
 
 In a functional program, input flows through a set of functions. Each function operates on its input and produces some output. Functional style discourages functions with side effects that modify internal state or make other changes that aren’t visible in the function’s return value. Functions that have no side effects at all are called purely functional. Avoiding side effects means not using data structures that get updated as a program runs; every function’s output must only depend on its input.
+
+
+--
+{ 'L e o   L a n e s e',
+'I  B u i l d   I n s p i r i n g   R e s p o n s i v e   S o l u t i o n s',
+'L O N D O N ,  U K' }
+My Portfolio
+http://www.leolanese.com
+
+My Blog:
+www.leolanese.com/blog
+
+Twitter:
+Follow me at:http://twitter.com/LeoLaneseltd
+
+Questions / Suggestion / Recommendation ?
