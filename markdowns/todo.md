@@ -12,7 +12,6 @@ Why:
 \`\`\`javascript runnable // old style var multiply = function\(x,y\) { return x \* y; } console.log\(multiply\(2,10\)\); // 20
 
 ```text
-```javascript runnable
 // Better do:
 // ES6 style
 const multiply = (x, y) => x * y;
