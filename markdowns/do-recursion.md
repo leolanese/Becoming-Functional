@@ -1,4 +1,4 @@
-# do-recursion
+# Do recursion
 
 ## Recursion
 

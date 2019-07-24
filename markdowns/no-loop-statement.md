@@ -1,4 +1,8 @@
-# no-loop-statement: for, for...of, for...in, while, and do...while.
+---
+description: 'for, for...of, for...in, while, and do...while.'
+---
+
+# Do not loop-statement
 
 ## no for
 

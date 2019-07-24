@@ -1,4 +1,4 @@
-# readonly-keyword
+# Do use readonly-keyword
 
 You might think that using const would eliminate mutation from your TypeScript code. Wrong. Turns out that there's a pretty big loophole in const.
 

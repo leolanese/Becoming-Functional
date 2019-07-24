@@ -1,4 +1,4 @@
-# Avoid Shared State
+# Do avoid Shared State
 
 'Shared state' is any variable, object, or memory space that exists in a shared scope, or as the property of an object being passed between scopes.
 

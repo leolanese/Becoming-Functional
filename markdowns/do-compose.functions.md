@@ -1,4 +1,8 @@
-# function composition: composing functions \(to chain\)
+---
+description: Composing functions (to chain)
+---
+
+# Do function composition
 
 > Composition means that we attach multiple functions together, in a pipe.
 

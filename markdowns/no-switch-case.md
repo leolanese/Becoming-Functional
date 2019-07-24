@@ -1,4 +1,4 @@
-# no switch-case
+# Do not switch-case
 
 // instead of
 

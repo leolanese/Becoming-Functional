@@ -1,4 +1,4 @@
-# Declarative programming
+# Do Declarative programming
 
 > FP is a declarative paradigm, meaning that the program logic is expressed without explicitly describing the flow control. We abstract the flow control process
 

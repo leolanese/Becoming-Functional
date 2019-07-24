@@ -1,4 +1,8 @@
-# no-ifs
+---
+description: Better ifs
+---
+
+# Do not ifs
 
 ## A better ifs? better no if
 
