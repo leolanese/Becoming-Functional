@@ -5,7 +5,8 @@
 
 Why: Function delegates encapsulate a method allowing functions to be composed or passed as data.
 
-\`\`\`javascript runnable const addOne = n =&gt; n + 1; const isZero = n =&gt; n === 0; const addValues = \(x,y\) =&gt; x + y; const giveMeTheKey = x =&gt; x.age === 38;
+```javascript 
+const addOne = n =&gt; n + 1; const isZero = n =&gt; n === 0; const addValues = \(x,y\) =&gt; x + y; const giveMeTheKey = x =&gt; x.age === 38;
 
 console.log\(addOne\(1\)\); // 2 console.log\(isZero\(addValues\(-5, 5\)\)\); // True  
 console.log\(\[0,1,0,3,4,0\].filter\(isZero\).length\); // 3
@@ -93,7 +94,11 @@ const x = (x) => x.name; // minimizing moving parts
 ].map(x); // ["Zak", "Adel", "Yori"]
 ```
 
-Ej2\) \`\`\`javascript runnable // Using .some to break a loop const isBiggerThan10 = numb =&gt; numb &gt; 10; \[2, 5, 8, 1, 4\].some\(isBiggerThan10\); // false \[12, 5, 8, 1, 4\].some\(isBiggerThan10\); // true
+Ej2) 
+```javascript
+// Using .some to break a loop 
+const isBiggerThan10 = numb =&gt; 
+numb &gt; 10; \[2, 5, 8, 1, 4\].some\(isBiggerThan10\); // false \[12, 5, 8, 1, 4\].some\(isBiggerThan10\); // true
 
 ```text
 ```javascript runnable
@@ -115,17 +120,7 @@ Tip: Notice how recursion, the functional approach, accomplishes the same as the
 
 ***
 
-### **Use array manipulation functions & Avoid mutator methods**
 
-
-**DO NOT** use the mutator methods, these methods modify the array:
-.push(), .copyWith(), .fill(), .pop(), .reverse(), .shift(), .sort(), .splice(), .unshift()
-
-**Better USE** non-mutating methods (Accessor methods, Iteration methods ):
-.concat(), .join(), .slice(), .toString(), .reduce(), .reduceRight(), etc.
-
-### Full list:
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Mutator_methods Mutator_method">Mutator_method</a>
 
 ***
 
