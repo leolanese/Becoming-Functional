@@ -1,24 +1,5 @@
 # todo
 
-## **Use ES6 Arrow Functions \(fat arrow\) as much as posible**
-
-Why:
-
-* Arrow functions create a concise expression that "encapsulates" a small piece of functionality. 
-* Additionally, arrows retain the scope of the caller inside the function eliminating the need of self = this.
-
-  Remember: Minimize moving parts
-
-\`\`\`javascript runnable // old style var multiply = function\(x,y\) { return x \* y; } console.log\(multiply\(2,10\)\); // 20
-
-```text
-// Better do:
-// ES6 style
-const multiply = (x, y) => x * y;
-console.log(multiply(2,10)); // 20
-```
-
-Further Information: \[ES6 Arrow functions\]\([https://github.com/leolanese/ES6\_workshop/blob/master/2.2-Arrow functions.md](https://github.com/leolanese/ES6_workshop/blob/master/2.2-Arrow%20functions.md)"\) create a concise expression that encapsulates a small piece of functionality. Additionally, arrows retain the scope of the caller inside the function eliminating the need of self = this.
 
 ## **Use Function Delegation**
 
