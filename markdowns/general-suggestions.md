@@ -12,6 +12,8 @@ FP requires you to think a bit differently about how to approach the tasks you�
 
 > FP requires you to think a bit differently about how to approach the tasks you’re facing.
 
+---
+
 ## Sugestions about: How to do FP and pure way:
 
 ### - In Functional Programming, you don’t just write Pure Functions.
