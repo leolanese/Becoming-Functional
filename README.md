@@ -9,9 +9,9 @@
 
 Please don’t rush. Learning Functional Programming takes a while. So be patient. This is the second part of the Funtional Programming introduction, and a more practical approach than theory one.
 
-> If you dind't see the "Functional Programming mindset" - An introduction to Functional Programming - leolanese/FP, please have a look at: [https://github.com/leolanese/FP](https://github.com/leolanese/FP)
+> If you dind't see the "Functional Programming mindset" - An introduction to Functional Programming - leolanese/FP, please have a look at: (Functional (Programming) Mindset - An introduction to Funtional Programming)[https://tech.io/playgrounds/24002/becoming-functional/introduction]
 
-> You can also have a look at the free (GitBook format)[https://laneseleo.gitbook.io/workspace/]
+> You can also have a look at the free GitBook format (Becoming Functional)[https://laneseleo.gitbook.io/workspace/]
 
 ---
 
