@@ -179,6 +179,26 @@ const newObj = {
 
 #### Function Delegation
 
+Function delegates encapsulate a method allowing functions to be composed or passed as data.
+
+// instead of
+```javascript
+const a = [0,1,0,3,4,0];
+for (i=0; i<a.length; i++){
+  if (i[a] === 0){
+    console.log(ia[])
+  }
+}
+```
+
+
+// better do
+```javascript
+const isZero = n => n === 0;
+const a = [0,1,0,3,4,0];
+console.log(a.filter(isZero).length); // 3
+```
+
 
 // instead of
 ```javascript
@@ -210,6 +230,9 @@ function foo(item, location) {
 ```
 
 #### Function Expressions instead of Function Statements
+
+Statements define an action and are executed for their side effect. Expressions produce a result without
+mutating state.
 
 // old style: 'Statement' 
 ```javascript
@@ -331,9 +354,9 @@ const obj = {
 
 ### Breaking or continuing loop: from better-ifs to no-ifs
 
-Using .some\(\) we get iteration functionally similar to .forEach but with the ability to break through return instead. Also there is .every, which can be used. We have to return the opposite boolean compared to .some\(\)
+Using .some() we get iteration functionally similar to .forEach but with the ability to break through return instead. Also there is .every, which can be used. We have to return the opposite boolean compared to .some\(\)
 
-// Using .some\(\) to break a loop
+// Using .some() to break a loop
 
 ```javascript
 const isBiggerThan10 = numb => numb > 10;
