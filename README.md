@@ -1,9 +1,8 @@
 # README
 
 ---
->OO makes code understandable by encapsulating moving parts.
->FP makes code understandable by minimizing moving parts.
-—[Michael Feathers (Twitter)](https://twitter.com/mfeathers/status/29581296216?lang=en)
+>OO makes code understandable by encapsulating moving parts. FP makes code understandable by minimizing moving parts.
+[Michael Feathers (Twitter)](https://twitter.com/mfeathers/status/29581296216?lang=en)
 ---
 
 ## Becoming functional
@@ -12,9 +11,9 @@ Please don’t rush. Learning Functional Programming takes a while. So be patien
 
 > If you dind't see the "Functional Programming mindset" - An introduction to Functional Programming - leolanese/FP, please have a look at: [https://github.com/leolanese/FP](https://github.com/leolanese/FP)
 
-
 > You can also have a look at the free (GitBook format)[https://laneseleo.gitbook.io/workspace/]
---
+
+---
 
 ### { 'L e o   L a n e s e',
 
