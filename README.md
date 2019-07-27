@@ -1,5 +1,11 @@
 # README
 
+---
+OO makes code understandable by encapsulating moving parts.
+FP makes code understandable by minimizing moving parts.
+—Michael Feathers (Twitter)
+---
+
 ## Becoming functional
 
 Please don’t rush. Learning Functional Programming takes a while. So be patient. This is the second part of the Funtional Programming introduction, and a more practical approach than theory one.
