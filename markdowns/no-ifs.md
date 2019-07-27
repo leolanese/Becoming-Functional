@@ -1,8 +1,5 @@
----
-description: Better ifs
----
 
-# Do not ifs
+# Better ifs
 
 ## A better ifs? better no if
 
@@ -102,6 +99,7 @@ greetings["patrick"](); // sayHello
 
 ### Ternary operator with return statements
 
+// instead of
 ```javascript
 if ( 'undefined' !== typeof nn['key'] ) {
   var gradeObject.title;
@@ -121,7 +119,6 @@ return gradeObject.title ?
 ### Ternary operator with return statements: return boolean ? ‘foo’ : ‘bar’;
 
 // instead of
-
 ```javascript
 if ( 'undefined' !== typeof nn['key'] ) {
   var gradeObject.title;
@@ -141,7 +138,6 @@ return gradeObject.title ?
 ### Using operations elements elements
 
 // instead of
-
 ```javascript
 const values = [1, 2, 3];
 let sum = 0;
@@ -178,6 +174,38 @@ const obj = {
 const newObj = {
     ...obj,
     two: 2
+}
+```
+
+#### Function Delegation
+
+
+// instead of
+```javascript
+function fooCall(location) {
+  return location;
+}
+function foo(item, location) {
+    if (!item) {
+        return false;
+    } else if (fooCall(location)) {
+        console.log('1')
+    } else {
+        console.log('0')
+    }
+}
+```
+
+// better do
+```javascript
+function fooCall(location) {
+  return location;
+}
+function foo(item, location) {
+    const fooOne = () => console.log('1');
+    const fooTwo = () => console.log('0');
+    
+    return !!item && (fooCall(location) ? fooOne() : fooTwo());
 }
 ```
 
