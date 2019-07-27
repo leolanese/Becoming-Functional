@@ -1,6 +1,6 @@
----
-description: Composing functions (to chain)
----
+
+#  Composing functions (to chain)
+
 
 # Do function composition
 
