@@ -181,33 +181,47 @@ const newObj = {
 }
 ```
 
-#### Expressions instead of Statements
+#### Function Expressions instead of Function Statements
 
-\`\`\`javascript runnable // old style: 'Statement' const sayHello = function\(hour\) { var salutation; // temp value if \(hour &lt; 12\) { salutation = "Good Morning"; } else { salutation = "Good Afternoon" } return salutation; // mutated value } console.log\(sayHello\(10\)\); // Good Morning
-
-```text
-```javascript runnable
+// old style: 'Statement' 
+```javascript
+const sayHello = function(hour) { 
+  var salutation; // temp value 
+  if (hour < 12) { 
+    salutation = "Good Morning"; 
+  } else { 
+    salutation = "Good Afternoon" 
+  } return salutation; // mutated value 
+} 
+console.log(sayHello(10)); // Good Morning
+```
 // Better do: 'Expression'
+```javascript
 const sayHello = (hour) => hour < 12 ? "Good Morning" : "Good Afternoon";
 console.log(sayHello(10)); // Good Morning
 ```
 
 [https://stackblitz.com/edit/use-expressions-instead-statements?file=index.js](https://stackblitz.com/edit/use-expressions-instead-statements?file=index.js)
 
-### Avoid Nested ifs/complex \|\| conditions
 
-\`\`\`javascript runnable // old style var myvar = 1; if\( myvar==1 \|\| myvar==5 \|\| myvar==7 \|\| myvar==22 \) { true }; // true
+### Avoid Nested ifs/complex || conditions
 
-```text
-```javascript runnable
+```javascript
+// old style var myvar = 1; 
+if( myvar==1 || myvar==5 || myvar==7 || myvar==22 ) { true }; // true
+```
+
+```javascript
 // better but not great :/
 const myvar =1;
 [1,5,7,22].indexOf(myvar)!== -1; // true
 ```
 
-\`\`\`javascript runnable // Better do: // a modern approach const myvar =1; \[1,5,7,22\].includes\(myvar\); // true
+// Better do:
+```javascript  
+const myvar =1; \[1,5,7,22\].includes\(myvar\); // true
+```
 
-```text
 ---
 
 ### Better ifs, no ifs: Use functions
