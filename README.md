@@ -3,7 +3,7 @@
 ---
 >OO makes code understandable by encapsulating moving parts.
 >FP makes code understandable by minimizing moving parts.
-—Michael Feathers (Twitter)
+—[Michael Feathers (Twitter)](https://twitter.com/mfeathers/status/29581296216?lang=en)
 ---
 
 ## Becoming functional
