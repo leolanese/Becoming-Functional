@@ -1,8 +1,8 @@
 # README
 
 ---
-OO makes code understandable by encapsulating moving parts.
-FP makes code understandable by minimizing moving parts.
+>OO makes code understandable by encapsulating moving parts.
+>FP makes code understandable by minimizing moving parts.
 —Michael Feathers (Twitter)
 ---
 
