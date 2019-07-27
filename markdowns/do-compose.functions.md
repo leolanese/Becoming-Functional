@@ -1,8 +1,21 @@
-
 #  Composing functions (to chain)
 
+"At a high level, functional programming is effectively the interplay between decompo-
+sition (breaking programs into small pieces) and composition (joining the pieces back together). It’s this duality that makes functional programs modular and so effective." - Functional Programming - Luis Alecio
 
-# Do function composition
+### Encouraging the decomposition of complex tasks
+
+Thinking functionally typically begins with decomposition by learning to break a particular task into logical subtasks (functions).
+
+// Take the 'string' values from an Array and separate them with ' ':
+```javascript
+const arr = ['This', 'is', false, null, 'javaScript', 'chau'];
+arr.filter(a => typeof a === 'string').join(' '); // 'This is javaScript'
+```
+
+---
+
+# Encouraging the composition
 
 > Composition means that we attach multiple functions together, in a pipe.
 
@@ -29,4 +42,6 @@ const drinkTotal = cart
 
 console.log(`£${drinkTotal}`);  // $14.13
 ```
+
+
 
