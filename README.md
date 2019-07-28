@@ -20,6 +20,9 @@ Please don’t rush. Learning Functional Programming takes a while. So be patien
 > For a more technical definition or a first approach to Functional Programming please have a look at: (Functional (Programming) Mindset - An introduction to Funtional Programming)[https://tech.io/playgrounds/24002/becoming-functional/introduction]
 
 
+### Further Related links:
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
+https://jrsinclair.com/
 
 ---
 
