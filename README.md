@@ -5,6 +5,12 @@
 [Michael Feathers (Twitter)](https://twitter.com/mfeathers/status/29581296216?lang=en)
 ---
 
+"Why bother calculating 𝜋 to 100 places if there’s no way anyone can read it? To print it out somewhere, we need to write to a console, or send data to a printer, or something where someone can read it. And, what good is a database if you can’t enter any data into it? We need to read data from input devices, and request information from the network. We can’t do any of it without side effects. And yet, functional programming is built around pure functions. So how do functional programmers manage to get anything done?
+
+The short answer is, they do what mathematicians do: They cheat." - [James Sinclair](https://jrsinclair.com/)
+
+---
+
 ## Becoming functional
 
 Please don’t rush. Learning Functional Programming takes a while. So be patient. This is the second part of the Funtional Programming introduction, and a more practical approach than theory one.
@@ -12,6 +18,8 @@ Please don’t rush. Learning Functional Programming takes a while. So be patien
 > You can also have a look at the free GitBook format (Becoming Functional)[https://laneseleo.gitbook.io/workspace/]
 
 > For a more technical definition or a first approach to Functional Programming please have a look at: (Functional (Programming) Mindset - An introduction to Funtional Programming)[https://tech.io/playgrounds/24002/becoming-functional/introduction]
+
+
 
 ---
 
