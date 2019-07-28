@@ -1,5 +1,7 @@
 # Becoming Functional
 
+> The functional programmer sounds rather like a mediæval monk, denying himself the pleasures of life in the hope it will make him virtuous. — [John Hughes](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
+
 > To become Functional we need to start Thinking Functionally. Lets go throw some steps to get **the right mindset into Functional Programming mindset to become into functional**.
 
 Before start: To start with this workshops you need to have an undertanding of what Functional Programming is. You can check this previous workshop: [https://tech.io/playgrounds/0ccbd2817eab67cc4e41211af5c23d1520042/becoming-functional/welcome-](https://tech.io/playgrounds/0ccbd2817eab67cc4e41211af5c23d1520042/becoming-functional/welcome-)
@@ -33,6 +35,33 @@ Actually you may be using few features already and you don't know .
 Changing the value of something already created with = \(var statements with = are fine\)
 
 ### - Don't iterate \(for loop, while, etc\), use HoF .map\(\), .reduce\(\), .filter\(\) instead for iterating through an array. \(use recursion instead with tramposling function or high order functions\)
+
+### Use dependency injection
+
+//  instead this
+```javascript
+function foo(something) {
+    const dt = (new Date())toISOString();
+    console.log(`${dt}: ${something}`);
+    return something;
+}
+```
+
+// do this
+```javascript
+function foo(d, cnsl, something) {
+    const dt = d.toIsoString();
+    return cnsl.log(`${dt}: ${something}`);
+}
+const something = "Curiouser and curiouser!"
+const d = new Date();
+logSomething(d, console, something);
+```
+
+### Don't call windows nor document
+This is impure, since document is a global object that could change at any moment.
+
+
 
 ### - Freeze all objects and arrays
 
