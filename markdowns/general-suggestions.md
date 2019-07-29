@@ -20,7 +20,18 @@ FP requires you to think a bit differently about how to approach the tasks you�
 
 ### - In Functional Programming, you don’t just write Pure Functions.
 
-Side effects are good. Functional Languages cannot eliminate Side Effects, they can only confine them. The goal instead is to minimize the amount of impure code
+Side effects are good. Functional Languages cannot eliminate Side Effects, they can only confine them.
+The goal instead is to minimize the amount of impure code.
+
+### Living with pure and impure code
+Impure code causes externally observable side effects after it’s run and has external
+dependencies to access data beyond the scope of its constituent functions. It only
+takes one function to be impure for your entire program to follow suit. 
+
+So, you don’t have to make your functions 100% pure to use the benefits of functional programming. 
+Although this is the perfect scenario, you must also learn to tolerate pure and impure behavior by 
+creating a clear separation between the two and isolating the impurity as much as possible, ideally, 
+in single function.
 
 ### - In Functinal Programming, you can write your code and then functional decomposition it.
 
@@ -36,7 +47,7 @@ Changing the value of something already created with = \(var statements with = a
 
 ### - Don't iterate \(for loop, while, etc\), use HoF .map\(\), .reduce\(\), .filter\(\) instead for iterating through an array. \(use recursion instead with tramposling function or high order functions\)
 
-### Use dependency injection
+### - Use dependency injection
 
 //  instead this
 ```javascript
@@ -58,7 +69,7 @@ const d = new Date();
 logSomething(d, console, something);
 ```
 
-### Don't call windows nor document
+### - Don't call windows nor document
 This is impure, since document is a global object that could change at any moment.
 
 
@@ -104,11 +115,11 @@ Further Information: \[ES6 Arrow functions\]\([https://github.com/leolanese/ES6\
 
 The most obvios tip is: Please, take advantage of all the language features, if you have something that it is already done, well: use it. Do not spend time working on languague problem, focus on bussiness goal issues
 
-### Function wrapping
+### - Function wrapping
 
 ```javascript
-// fZero() is impure
-function fZero() { 
+// foo() is impure
+function foo() { 
     console.log('IMPURE'); // IO log = Impure
     return 0;
 }
@@ -117,17 +128,19 @@ function fZero() {
 Controlling the side-effect: A side effect isn’t a side effect until it actually happens. This function wrapping thing is a legitimate strategy. We can keep hiding behind functions as long as we want. Oh yes! And as long as we never actually call any of these functions, they’re all theoretically pure. So, we control the side-effect: Wrapping everything in a function lets us control those effects with precision. We decide exactly when those side effects happen.
 
 ```javascript
-function returnZeroFunc() {
-    function fZero() {  // we wrapped fZero() inside another function that just returned it right?
+function returnFooFunc() {
+    function foo() {  // we wrapped foo() inside another function that just returned it right?
         console.log('IMPURE');
         return 0;
     }
-    return fZero;
+    return foo;
 }
-const zeroFunc1 = returnZeroFunc(); // pure
+const zeroFoo1 = returnFooFunc(); // pure
 ```
 
-{ 'L e o L a n e s e', 'I B u i l d I n s p i r i n g R e s p o n s i v e S o l u t i o n s',
+---
+
+{ 'L e o L a n e s e', 'I B u i l d    I n s p i r i n g    R e s p o n s i v e     S o l u t i o n s',
 
 'L O N D O N , U K' }
 
