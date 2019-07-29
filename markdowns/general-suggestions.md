@@ -41,9 +41,77 @@ Functional decomposition is athe process of taking a complex process and breakin
 
 Actually you may be using few features already and you don't know .
 
-### - No var assignment.
+### - No assignment
+Instead of mutating local scope with a variable assigment, 
+move the rest of the statements in the function body to a new 
+function with a single argument.
 
-Changing the value of something already created with = \(var statements with = are fine\)
+The doubled binding is now a function parameter, 
+which doesn't modify the local scope for doubleAndAddTen.
+
+// instead of
+```JavaScript
+function doubleAndAddTen(x) {
+    const doubled = x * 2;
+    return doubled + 10;
+}
+```
+
+// better do
+```javascript
+function doubleAndAddTen(x) {
+    return (doubled => doubled + 10)(x * 2);
+}
+```
+
+### - Exceptions
+Instead of throwing exceptions, indicate exceptional states in the return value.
+Here, safeDivide performs division, but returns 0 in case the division throws an error.
+
+We could think of exceptions as another possible return value that is implicitly propagated up the call stack unless the return value is explicitly handled with a  try/catch construct. As such, they may be considered pure.
+
+// instead of
+```javaScript
+function divide(dividend, divisor) {
+    if (divisor === 0) throw new Error("Can't divide by 0.");
+    return dividend / divisor;
+}
+
+function safeDivide(dividend, divisor) {
+    try {
+        return dividend / divisor;
+    } catch (e) {
+        return 0;
+    }
+}
+```
+
+// better do
+```javascript
+function divide(dividend, divisor) {
+    if (divisor === 0) {
+        return {
+            ok: false,
+            value: new Error("Can't divide by 0").
+        };
+    }
+    return {
+        ok: true,
+        value: dividend / divisor;
+    }
+}
+
+function safeDivide(dividend, divisor) {
+    const result = divide(dividend, divisor);
+    if (result.ok) {
+        return result.value;
+    }
+    return 0;
+}
+```
+
+
+
 
 ### - Don't iterate \(for loop, while, etc\), use HoF .map\(\), .reduce\(\), .filter\(\) instead for iterating through an array. \(use recursion instead with tramposling function or high order functions\)
 
@@ -78,7 +146,7 @@ function getDocument() {
     return global.window.document;
 }
 getDocument()
-
+```
 
 // Pure: wrapping Global Variables
 ```javascript
@@ -139,7 +207,7 @@ function foo() {
 }
 ```
 
-Controlling the side-effect: A side effect isn’t a side effect until it actually happens. This function wrapping thing is a legitimate strategy. We can keep hiding behind functions as long as we want. Oh yes! And as long as we never actually call any of these functions, they’re all theoretically pure. So, we control the side-effect: Wrapping everything in a function lets us control those effects with precision. We decide exactly when those side effects happen.
+### - Controlling the side-effect: A side effect isn’t a side effect until it actually happens. This function wrapping thing is a legitimate strategy. We can keep hiding behind functions as long as we want. Oh yes! And as long as we never actually call any of these functions, they’re all theoretically pure. So, we control the side-effect: Wrapping everything in a function lets us control those effects with precision. We decide exactly when those side effects happen.
 
 ```javascript
 function returnFooFunc() {
