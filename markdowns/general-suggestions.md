@@ -41,7 +41,7 @@ Functional decomposition is athe process of taking a complex process and breakin
 
 Actually you may be using few features already and you don't know .
 
-### - No assignment.
+### - No var assignment.
 
 Changing the value of something already created with = \(var statements with = are fine\)
 
@@ -70,9 +70,23 @@ logSomething(d, console, something);
 ```
 
 ### - Don't call windows nor document
-This is impure, since document is a global object that could change at any moment.
+Instead of referring to global variables inside a function, pass the global environment or a part of it as an argument to the function.
+
+// Impure: This is impure, since document is a global object that could change at any moment.
+```JavaScript
+function getDocument() {
+    return global.window.document;
+}
+getDocument()
 
 
+// Pure: wrapping Global Variables
+```javascript
+function getDocument(environment) {
+    return environment.window.document;
+}
+getDocument(global);
+```
 
 ### - Freeze all objects and arrays
 
