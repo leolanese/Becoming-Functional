@@ -28,19 +28,25 @@ Using RxJS we normally chain functions using pipe, Also, pipe return the Observa
 > Composition f\(g\(x\)\) and Pipe are both function composition, what is change is the order: Composition: inside out, Pipe: outside in.
 
 ```javascript
-const cart = [
+### Use function composition with High Order Functions
+
+```javascript
+var cart = [
  {name: "Drink", price: 3.12},
  {name: "Steak", price: 45.15},
  {name: "Drink", price: 11.01}
 ];
 
-const drinkTotal = cart
- .filter(x => x.name === "Drink")
- .map(x => x.price)
- .reduce((t,v) => t +=v)
- .toFixed(2);
+var drinkTotal = cart
+ .filter(x => x.name === "Drink") // grab a drink
+ .map(x => console.log(x)
+ .map(x => x.price) // take only the price from it
+ .reduce((t,v) => t +=v) // accumulate all Drink prices
+ .toFixed(2); // only takes 2 float numbers
+ .map(x => `£${x}`)
 
 console.log(`£${drinkTotal}`);  // $14.13
+```
 ```
 
 
