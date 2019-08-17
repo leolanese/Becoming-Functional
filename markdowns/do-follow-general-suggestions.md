@@ -1,6 +1,6 @@
 # Becoming Functional
 
-> The functional programmer sounds rather like a mediæval monk, denying himself the pleasures of life in the hope it will make him virtuous. — [John Hughes](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
+> The functional programmer sounds rather like a medieval monk, denying himself the pleasures of life in the hope it will make him virtuous. — [John Hughes](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
 
 > To become Functional we need to start Thinking Functionally. Lets go throw some steps to get **the right mindset into Functional Programming mindset to become into functional**.
 
