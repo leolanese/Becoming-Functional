@@ -1,11 +1,11 @@
 
-# Better ifs
+# Do no ifs: 
 
-## A better ifs? better no if
+## A better ifs: better no if!
 
 ### **Better ifs or no ifs techniques**
 
-## Keep i'f' simple
+## Keep if simple
 
 // instead of
 
