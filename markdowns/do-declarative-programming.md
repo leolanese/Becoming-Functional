@@ -44,7 +44,9 @@ const resultsAvg = avg(results);
 console.log(resultsAvg);
 ```
 
-// better do // the following example is declarative because there are no control flow statements and there are no state mutations // resultsAvg is not reusable, but the add, addMany, div, mapProp, and avg functions they are.
+// better do 
+// the following example is declarative because there are no control flow statements and there are no state mutations 
+// resultsAvg is not reusable, but the add, addMany, div, mapProp, and avg functions they are.
 
 ```javascript
 const add = (a: number, b: number) => a + b;
