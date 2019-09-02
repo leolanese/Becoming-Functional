@@ -2,7 +2,8 @@
 
 > FP is a declarative paradigm, meaning that the program logic is expressed without explicitly describing the flow control. We abstract the flow control process
 
-// instead of // Imperative/procedural Programming
+// instead of <br />
+// Imperative/procedural Programming
 
 ```javascript
 var array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -12,13 +13,14 @@ var array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 array; //-> [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
 
-// better do // ES6 & declarative & functional programming oriented
+// better do <br />
+// ES6 & declarative & functional programming oriented
 
 ```javascript
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(num => Math.pow(num, 2));
 ```
 
-// instead of &nbsp;
+// instead of <br />
 // This example uses an IP style because, as we can see, it uses control flow statements
 
 ```javascript
