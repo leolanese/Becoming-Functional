@@ -1,5 +1,26 @@
 # Memoization
+1)
 
+```javascript
+function sum(a, b) {
+  return a + b;
+}
+
+// we call it with these parameters
+sum(5, 8); // 13
+
+// sum(5, 8) will always return 13 so
+sum(3, sum(5, 8));
+
+// =
+
+sum(3, 13);
+
+// same same :)
+const sum = 16;
+```
+
+2)
 // a simple memoize function that takes in a function
 // and returns a memoized function
 ```javascript
