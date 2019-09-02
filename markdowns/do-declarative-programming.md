@@ -18,7 +18,8 @@ array; //-> [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(num => Math.pow(num, 2));
 ```
 
-// instead of // This example uses an IP style because, as we can see, it uses control flow statements
+// instead of &nbsp;
+// This example uses an IP style because, as we can see, it uses control flow statements
 
 ```javascript
 interface Result {
