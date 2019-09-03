@@ -12,7 +12,6 @@ Given the same inputs, always returns the same output, and no side-effects
 <br />
 4- Immutability State: <br />
 Immutable objects never change
-
 <br />
 5- Recursion: <br />
 Is a f() simply calls itself.
