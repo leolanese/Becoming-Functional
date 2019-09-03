@@ -44,9 +44,7 @@ FP avoids shared state, instead relying on immutable data structures and pure ca
 Shared state is any variable, object, or memory space that exists in a shared scope, or as the property of an object being passed between scopes. 
 <br />
 14- Pure Function" (used on reducer) <br />
-A pure function is a function which:
-  - Given the same input, always return the same output (pure)
-  - Has no side effects (immutable)
+A pure function is a function which: * Given the same input, always return the same output (pure) & has no side effects (immutable)
 <br />
 15- Side-effects  <br />
 Mutating data can cause unintended side-effects.
