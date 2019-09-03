@@ -1,10 +1,34 @@
 # Do Declarative programming
 
-> FP is a declarative paradigm, meaning that the program logic is expressed without explicitly describing the flow control. We abstract the flow control process
+> FP is a declarative paradigm software development style, like IP or OOP, thats keeps 'functions' and 'data' separate
 
-// instead of <br />
-// Imperative/procedural Programming
 
+// instead of use Imperative Programming
+```javascript
+var arr = [1, 2, 3, 4, 5];
+function odds(arr) {
+  var result = [];
+  for (let i = 0; i < arr.length; i++) {
+    var item = arr[i];
+    if (i % 2 === 0) {
+      result.push(item);
+    }
+  }
+  return result;
+}
+odds(arr); // [1, 3, 5]
+```
+
+// better do Procedural Programming <br />
+```javascript
+const arr = [1, 2, 3, 4, 5];
+const odds = arr => arr.filter(item => item % 2 !== 0);
+odds(arr); // [1, 3, 5]
+```
+
+---
+
+// instead of use Imperative Programming <br />
 ```javascript
 var array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
   for(let i = 0; i < array.length; i++) {
@@ -13,15 +37,15 @@ var array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 array; //-> [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
 
-// better do <br />
-// ES6 & declarative & functional programming oriented
+// better do procedural Programming <br />
+// ES6 & declarative & functional programming oriented <br />
 
 ```javascript
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(num => Math.pow(num, 2));
 ```
 
 // instead of <br />
-// This example uses an IP style because, as we can see, it uses control flow statements
+// This example uses an IP style because, as we can see, it uses control flow statements<br />
 
 ```javascript
 interface Result {
@@ -47,9 +71,9 @@ const resultsAvg = avg(results);
 console.log(resultsAvg);
 ```
 
-// better do 
-// the following example is declarative because there are no control flow statements and there are no state mutations 
-// resultsAvg is not reusable, but the add, addMany, div, mapProp, and avg functions they are.
+// better do <br />
+// the following example is declarative because there are no control flow statements and there are no state mutations <br />
+// resultsAvg is not reusable, but the add, addMany, div, mapProp, and avg functions they are.<br />
 
 ```javascript
 const add = (a: number, b: number) => a + b;
