@@ -2,7 +2,6 @@
 
 1- First-Class citizens: <br />
 mean that you can STORE functions into a variable
-
 <br />
 2- High-Order function: HoF <br />
 A higher-order function is a function that can take another function as an argument, 
