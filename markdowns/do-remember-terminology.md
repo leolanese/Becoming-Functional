@@ -49,7 +49,7 @@ A pure function is a function which: * Given the same input, always return the s
 **15- Side-effects  <br />**
 Mutating data can cause unintended side-effects.
 <br />
-**16: Js First-Class: <br /> **
+**16: Js First-Class: <br />**
 Functions in JS are "first-class" objects, this means that something has a value
 <br />
 **17: First-Class-functions: FcF <br />**
