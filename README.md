@@ -33,9 +33,9 @@ Please don't rush. Learning Functional Programming takes a while. So be patient.
 <li>[do use non mutating methods](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-non-mutating-methods.md)</li>
 <li>[do use readonly keyword](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-readonly-keyword.md)</li>
 
-<ul>
+
   <li>[ALL LINKS](https://github.com/leolanese/Becoming-Functional/tree/master/markdowns)</li>
-</ul>
+
 
 ---
 
