@@ -156,11 +156,6 @@ function getDocument(environment) {
 getDocument(global);
 ```
 
-### - Freeze all objects and arrays
-
-Since modifying an existing object or array would be a stateful expression
-
-### - Avoid using Date \(since it always produces a new value no matter what the inputs are\), avoid uisng Math.random \(same reason as Date\) and avoid using mutation methods.
 
 ### - A JavaScript Function is a JavaScript Variable until it is executed \(that's to say we can encapsulate it and keep it until evaluated\).
 
