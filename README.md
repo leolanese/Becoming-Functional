@@ -15,7 +15,13 @@ Please don't rush. Learning Functional Programming takes a while. So be patient.
 
 ## CONTENT:
 
-<li>[do better ifs][https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-better-ifs.md]</li> 
+| Chapter        | Topic       
+| ------------- |:----------------:|
+| col 3 is      | (do better ifs)[https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-better-ifs.md] |
+| col 2 is      | centered       $12 |
+| zebra stripes | are neat     $1 |
+
+<li>
 <li>[do compose functions](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-compose.functions.md)</li>
 <li>[do declarative programming](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-declarative-programming.md)</li>
 <li>[do follow general suggestions](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-follow-general-suggestions.md)</li>
