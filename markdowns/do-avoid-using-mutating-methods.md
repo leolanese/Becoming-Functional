@@ -28,13 +28,15 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 ---
 ### Do no use random undictable or external methods
+Avoid using Date (since it always produces a new value no matter what the inputs are), avoid using Math.random (same reason as Date()) and avoid using mutation methods.
 
 // Since it always produces a new value no matter what the inputs are
 ```javascript
-Date (Date.now), Math.random  
+Date() 
+Math.random()  
 ```
 
-// reling in external access = side effects
+// relying in external access = side effects
 ```javascript
 console.log(), this, global variables, exceptions thrown, etc.
 ```
