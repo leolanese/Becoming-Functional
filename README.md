@@ -34,8 +34,7 @@ Please don't rush. Learning Functional Programming takes a while. So be patient.
 | do use memoization |[do use memoization](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-memoization.md)
 | do use non mutating methods |[do use non mutating methods](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-non-mutating-methods.md)|
 | do use readonly keyword |[do use readonly keyword](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-readonly-keyword.md)|
-
-|do freeze to avoid mutation | [freeze]()
+|do freeze to avoid mutation | [do freeze to avoid mutation](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-freeze.md)|
 
 
 ---
