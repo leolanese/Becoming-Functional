@@ -31,7 +31,7 @@ Please don't rush. Learning Functional Programming takes a while. So be patient.
 | do spread operator |[do spread operator](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-spread-operator.md)|
 | do use immutable update utility libraries |[do use immutable update utility libraries](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-immutable-update-utility-libraries.md)|
 | do use memoization |[do use memoization](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-memoization.md)
-(do-use-non-mutating-methods-methods)</li>
+(do-use-non-mutating-methods)</li>
 | do use non mutating methods |[do use non mutating methods](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-non-mutating-methods.md)|
 | do use readonly keyword |[do use readonly keyword](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-readonly-keyword.md)|
 | ALL LINKS |[ALL LINKS](https://github.com/leolanese/Becoming-Functional/tree/master/markdowns)|
