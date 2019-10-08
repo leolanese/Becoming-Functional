@@ -21,7 +21,6 @@ Please don't rush. Learning Functional Programming takes a while. So be patient.
 | do compose functions     | [do compose functions](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-compose.functions.md)|
 | do declarative programming | [do declarative programming](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-declarative-programming.md)|
 | do follow general suggestions |[do follow general suggestions](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-follow-general-suggestions.md)|
-
 | do no loop statement |[do no loop statement](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-no-loop-statement.md)|
 | do not shared state |[do not shared state](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-not-shared-state.md)|
 | do not switch case |[do not switch case](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-not-switch-case.md)|
@@ -72,5 +71,5 @@ Follow me at:
 
 
 ## Questions / Suggestion / Recommendation ?
-[developer@leolanese.com]
+[developer@leolanese.com](developer@leolanese.com)
 
