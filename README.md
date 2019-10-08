@@ -19,7 +19,7 @@ Please don’t rush. Learning Functional Programming takes a while. So be patien
 [Michael Feathers (Twitter)](https://twitter.com/mfeathers/status/29581296216?lang=en)
 ---
 
-
+https://github.com/leolanese/Becoming-Functional/tree/master/markdowns
 
 ### Further Related links:
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
