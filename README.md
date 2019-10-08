@@ -16,8 +16,8 @@ Please don't rush. Learning Functional Programming takes a while. So be patient.
 ## CONTENT:
 
 <ul>
-[do better ifs](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-better-ifs.md) 
-[do compose functions](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-compose.functions.md)
+<li>[do better ifs][https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-better-ifs.md]</li> 
+<li>[do compose functions](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-compose.functions.md)</li>
 <li>[do declarative programming](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-declarative-programming.md)</li>
 <li>[do follow general suggestions](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-follow-general-suggestions.md)</li>
 <li>[do no loop statement](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-no-loop-statement.md)</li>
