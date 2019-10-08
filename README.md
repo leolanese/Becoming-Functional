@@ -36,7 +36,6 @@ Please don't rush. Learning Functional Programming takes a while. So be patient.
 </ul>
 
 <ul>
-  <li>[Michael Feathers (Twitter)](https://twitter.com/mfeathers/status/29581296216?lang=en)</li>
   <li>[ALL LINKS](https://github.com/leolanese/Becoming-Functional/tree/master/markdowns)</li>
 </ul>
 
