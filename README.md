@@ -15,7 +15,6 @@ Please don't rush. Learning Functional Programming takes a while. So be patient.
 
 ## CONTENT:
 
-<ul>
 <li>[do better ifs][https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-better-ifs.md]</li> 
 <li>[do compose functions](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-compose.functions.md)</li>
 <li>[do declarative programming](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-declarative-programming.md)</li>
@@ -33,7 +32,6 @@ Please don't rush. Learning Functional Programming takes a while. So be patient.
 (do-use-non-mutating-methods-methods)</li>
 <li>[do use non mutating methods](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-non-mutating-methods.md)</li>
 <li>[do use readonly keyword](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-readonly-keyword.md)</li>
-</ul>
 
 <ul>
   <li>[ALL LINKS](https://github.com/leolanese/Becoming-Functional/tree/master/markdowns)</li>
