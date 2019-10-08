@@ -17,6 +17,7 @@ Please don't rush. Learning Functional Programming takes a while. So be patient.
 
 | Chapter        | Topic       
 | ------------- |:----------------:|
+| ALL LINKS |[ALL LINKS](https://github.com/leolanese/Becoming-Functional/tree/master/markdowns)|
 | do better ifs    | [do better ifs](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-better-ifs.md)|
 | do compose functions     | [do compose functions](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-compose.functions.md)|
 | do declarative programming | [do declarative programming](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-declarative-programming.md)|
@@ -33,7 +34,8 @@ Please don't rush. Learning Functional Programming takes a while. So be patient.
 | do use memoization |[do use memoization](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-memoization.md)
 | do use non mutating methods |[do use non mutating methods](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-non-mutating-methods.md)|
 | do use readonly keyword |[do use readonly keyword](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-readonly-keyword.md)|
-| ALL LINKS |[ALL LINKS](https://github.com/leolanese/Becoming-Functional/tree/master/markdowns)|
+
+|do freeze to avoid mutation | [freeze]()
 
 
 ---
