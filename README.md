@@ -17,7 +17,7 @@ Please don't rush. Learning Functional Programming takes a while. So be patient.
 
 | Chapter        | Topic       
 | ------------- |:----------------:|
-| col 3 is      | (do better ifs)[https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-better-ifs.md] |
+| col 3 is      | [do better ifs](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-better-ifs.md) |
 | col 2 is      | [I'm an inline-style link](https://www.google.com)
 | zebra stripes | are neat     $1 |
 
