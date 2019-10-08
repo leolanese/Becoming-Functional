@@ -13,13 +13,35 @@ Please don't rush. Learning Functional Programming takes a while. So be patient.
 > For a first approach to Functional Programming please have a look at: [Functional (Programming) Mindset - An introduction to Funtional Programming](https://tech.io/playgrounds/24002/becoming-functional/introduction)
 
 
+## CONTENT:
+
+[do-better-ifs](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-better-ifs.md)
+[do-compose.functions](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-compose.functions.md)
+[do-declarative-programming](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-declarative-programming.md)
+[do-follow-general-suggestions](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-follow-general-suggestions.md)
+[do-no-loop-statement](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-no-loop-statement.md)
+[do-not-shared-state](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-not-shared-state.md)
+[do-not-switch-case](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-not-switch-case.md)
+[do-avoid-use-var-nor-let](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-avoid-use-var-nor-let.md)
+[do-recursion.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-recursion.md)
+[do-remember-terminology.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-remember-terminology.md)
+[do-rest-operators.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-rest-operators.md)
+[do-spread-operator.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-spread-operator.md)
+[do-use-immutable-update-utility-libraries.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-immutable-update-utility-libraries.md)
+[do-use-memoization.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-memoization.md)
+(do-use-non-mutating-methods-methods)
+[do-use-non-mutating-methods.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-non-mutating-methods.md)
+[do-use-readonly-keyword.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-readonly-keyword.md)
+
+[ALL LINKS](https://github.com/leolanese/Becoming-Functional/tree/master/markdowns)
+
+
 ---
 
 >OO makes code understandable by encapsulating moving parts. FP makes code understandable by minimizing moving parts.
 [Michael Feathers (Twitter)](https://twitter.com/mfeathers/status/29581296216?lang=en)
----
 
-[LINKS](https://github.com/leolanese/Becoming-Functional/tree/master/markdowns)
+---
 
 ### Further Related links:
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
