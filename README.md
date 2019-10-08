@@ -8,7 +8,7 @@ The short answer is, they do what mathematicians do: They cheat." - [James Sincl
 
 ## Becoming functional
 
-Please don’t rush. Learning Functional Programming takes a while. So be patient. This is the second part of the Funtional Programming introduction, and a more practical approach than theory one.
+Please don't rush. Learning Functional Programming takes a while. So be patient. This is the second part of the Funtional Programming introduction, and a more practical approach than theory one.
 
 > For a first approach to Functional Programming please have a look at: [Functional (Programming) Mindset - An introduction to Funtional Programming](https://tech.io/playgrounds/24002/becoming-functional/introduction)
 
@@ -19,7 +19,7 @@ Please don’t rush. Learning Functional Programming takes a while. So be patien
 [Michael Feathers (Twitter)](https://twitter.com/mfeathers/status/29581296216?lang=en)
 ---
 
-https://github.com/leolanese/Becoming-Functional/tree/master/markdowns
+[caca](https://github.com/leolanese/Becoming-Functional/tree/master/markdowns)
 
 ### Further Related links:
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
@@ -34,18 +34,17 @@ https://jrsinclair.com/
 #### 'L O N D O N ,  U K' }
 
 ## My Portfolio
-
 [http://www.leolanese.com](http://www.leolanese.com)  
 
 
 ## My Blog:
-
 [www.leolanese.com/blog](http://www.leolanese.com/blog)  
 
 
 ## Twitter:
 
-Follow me at:[http://twitter.com/LeoLaneseltd](http://twitter.com/LeoLaneseltd)  
+Follow me at:
+[http://twitter.com/LeoLaneseltd](http://twitter.com/LeoLaneseltd)  
 
 
 ## Questions / Suggestion / Recommendation ?
