@@ -15,26 +15,29 @@ Please don't rush. Learning Functional Programming takes a while. So be patient.
 
 ## CONTENT:
 
-[do-better-ifs](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-better-ifs.md)
-[do-compose.functions](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-compose.functions.md)
-[do-declarative-programming](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-declarative-programming.md)
-[do-follow-general-suggestions](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-follow-general-suggestions.md)
-[do-no-loop-statement](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-no-loop-statement.md)
-[do-not-shared-state](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-not-shared-state.md)
-[do-not-switch-case](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-not-switch-case.md)
-[do-avoid-use-var-nor-let](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-avoid-use-var-nor-let.md)
-[do-recursion.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-recursion.md)
-[do-remember-terminology.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-remember-terminology.md)
-[do-rest-operators.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-rest-operators.md)
-[do-spread-operator.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-spread-operator.md)
-[do-use-immutable-update-utility-libraries.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-immutable-update-utility-libraries.md)
-[do-use-memoization.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-memoization.md)
-(do-use-non-mutating-methods-methods)
-[do-use-non-mutating-methods.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-non-mutating-methods.md)
-[do-use-readonly-keyword.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-readonly-keyword.md)
+<ul>
+<li>[do-better-ifs](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-better-ifs.md)</li>  
+<li>[do-compose.functions](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-compose.functions.md)</li>
+<li>[do-declarative-programming](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-declarative-programming.md)</li>
+<li>[do-follow-general-suggestions](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-follow-general-suggestions.md)</li>
+<li>[do-no-loop-statement](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-no-loop-statement.md)</li>
+<li>[do-not-shared-state](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-not-shared-state.md)</li>
+<li>[do-not-switch-case](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-not-switch-case.md)</li>
+<li>[do-avoid-use-var-nor-let](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-avoid-use-var-nor-let.md)</li>
+<li>[do-recursion.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-recursion.md)</li>
+<li>[do-remember-terminology.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-remember-terminology.md)</li>
+<li>[do-rest-operators.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-rest-operators.md)</li>
+<li>[do-spread-operator.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-spread-operator.md)</li>
+<li>[do-use-immutable-update-utility-libraries.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-immutable-update-utility-libraries.md)</li>
+<li>[do-use-memoization.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-memoization.md)
+(do-use-non-mutating-methods-methods)</li>
+<li>[do-use-non-mutating-methods.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-non-mutating-methods.md)</li>
+<li>[do-use-readonly-keyword.md](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-readonly-keyword.md)</li>
+</ul>
 
-[ALL LINKS](https://github.com/leolanese/Becoming-Functional/tree/master/markdowns)
-
+<ul>
+  <li>[ALL LINKS](https://github.com/leolanese/Becoming-Functional/tree/master/markdowns)</li>
+</ul>
 
 ---
 
