@@ -64,17 +64,20 @@ This is the second part of the Functional Programming introduction and a more pr
 [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53)<br/>
 
 #### BOOKS
-[Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/)
-[Thinking in Ramda](http://randycoulman.com/blog/categories/thinking-in-ramda/)
-[Professor Frisby Introduces Composable Functional JavaScript](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript)
-[Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
-[Essential Functions Support](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/appendix_a.html)
+[Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/)<br/>
+[Thinking in Ramda](http://randycoulman.com/blog/categories/thinking-in-ramda/)<br/>
+[Professor Frisby Introduces Composable Functional JavaScript](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript)<br/>
+[Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)<br/>
+[Essential Functions Support](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/appendix_a.html)<br/>
 
 #### Curry function:
 [Curry and Function Composition](https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983)<br/>
 [Why Curry Helps](https://hughfdjackson.com/javascript/why-curry-helps/)<br/>
 [Perpetual Currying in JavaScript](https://codeburst.io/perpetual-currying-in-javascript-5ae1c749adc5)<br/>
 
+
+#### Further more documentation:
+[Open Source JS Resources](https://github.com/leolanese/Open-Source-JS-Resources)
 
 ---
 
