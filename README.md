@@ -16,7 +16,7 @@ Learning FP sometimes is a bit cryptic and code looks weird in the beginning. Le
 This is the second part of the Functional Programming introduction and a more practical approach than theory one. For the first approach to Functional Programming please have a look at [Functional (Programming) Mindset - An introduction to Functional Programming](https://tech.io/playgrounds/24002/becoming-functional/introduction)
 
 <br />
----
+
 
 ## CONTENT:
 
