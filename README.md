@@ -8,10 +8,18 @@ The short answer is, they do what mathematicians do: They cheat." - [James Sincl
 
 ## Becoming functional
 
-Please don't rush. Learning Functional Programming takes a while. So be patient. This is the second part of the Funtional Programming introduction, and a more practical approach than theory one.
+<br />
+Here there is a list of <b>Actions</b> that we can consider to have in mind if we want <b>to get into Functional Programming.
+</b>
 
-> For a first approach to Functional Programming please have a look at: [Functional (Programming) Mindset - An introduction to Funtional Programming](https://tech.io/playgrounds/24002/becoming-functional/introduction)
+<br />
+Please don't rush. Take your time. <br/>
+Learning FP sometimes is a bit cryptic and code looks weird in the beginning. Learning Functional Programming takes a while to master it and some other times we need to stop doing what we used to do and try a different way of doing the same thing, pushing ourselves out of the comfortable zone. So, please be patient and open your mind. 
+<br />
+This is the second part of the Functional Programming introduction and a more practical approach than theory one. For the first approach to Functional Programming please have a look at [Functional (Programming) Mindset - An introduction to Functional Programming](https://tech.io/playgrounds/24002/becoming-functional/introduction)
 
+---
+<br />
 
 ## CONTENT:
 
@@ -47,6 +55,7 @@ Please don't rush. Learning Functional Programming takes a while. So be patient.
 ### Further Related links:
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
 https://jrsinclair.com/
+https://drboolean.gitbooks.io/mostly-adequate-guide-old/content/ch1.html
 
 ---
 
