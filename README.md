@@ -9,7 +9,7 @@ The short answer is, they do what mathematicians do: They cheat." - [James Sincl
 ## Becoming functional
 
 <br />
-Here there is a list of <b>Actions</b> that we can consider to have in mind if we want <b>to get into Functional Programming.</b>
+Here there is a list of <b>Actions</b> that we can consider to have in mind if we want to get into Functional Programming.
 
 <br/><br/>
 Please don't rush. Take your time. <br/>
