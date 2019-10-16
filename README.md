@@ -50,9 +50,9 @@ This is the second part of the Functional Programming introduction and a more pr
 ---
 
 ### Further Related links:
-https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
-https://jrsinclair.com/
-https://drboolean.gitbooks.io/mostly-adequate-guide-old/content/ch1.html
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0 <br/>
+https://jrsinclair.com/<br/>
+https://drboolean.gitbooks.io/mostly-adequate-guide-old/content/ch1.html<br/>
 
 ---
 
