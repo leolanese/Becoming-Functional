@@ -40,7 +40,7 @@ This is the second part of the Functional Programming introduction and a more pr
 | do avoid using mutating methods |[do-avoid-using-mutating-methods](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-avoid-using-mutating-methods.md)|
 | do use readonly keyword |[do use readonly keyword](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-use-readonly-keyword.md)|
 |do freeze to avoid mutation | [do freeze to avoid mutation](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-freeze.md)|
-|do type| [do use type ]()|
+|do use type system| [do use Hindley-Milner type](https://github.com/leolanese/Becoming-Functional/blob/master/markdowns/do-type.md)|
 
 
 ---
