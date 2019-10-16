@@ -51,21 +51,21 @@ This is the second part of the Functional Programming introduction and a more pr
 
 ### Further Related links:
 #### Why Functional Programming:
-[Why functional programming matters](https://hackernoon.com/why-functional-programming-matters-c647f56a7691)
-[Why Functional Programming?]https://purelyfunctional.tv/article/why-functional-programming/
-[Advantages of Functional Programming](https://blog.codeship.com/advantages-of-functional-programming/)
-[Pros and cons of functional programming]https://itnext.io/pros-and-cons-of-functional-programming-32cdf527e1c2
-[What are the benefits of functional programming?]https://stackoverflow.com/questions/128057/what-are-the-benefits-of-functional-programming/128128#128128
-[Switching from OOP to Functional Programming](https://medium.com/@olxc/switching-from-oop-to-functional-programming-4187698d4d3)
+[Why functional programming matters](https://hackernoon.com/why-functional-programming-matters-c647f56a7691)<br/>
+[Why Functional Programming?](https://purelyfunctional.tv/article/why-functional-programming/)<br/>
+[Advantages of Functional Programming](https://blog.codeship.com/advantages-of-functional-programming/)<br/>
+[Pros and cons of functional programming](https://itnext.io/pros-and-cons-of-functional-programming-32cdf527e1c2)<br/>
+[What are the benefits of functional programming?](https://stackoverflow.com/questions/128057/what-are-the-benefits-of-functional-programming/128128#128128)<br/>
+[Switching from OOP to Functional Programming](https://medium.com/@olxc/switching-from-oop-to-functional-programming-4187698d4d3)<br/>
 
 #### SOLID and FP:
-[SOLID: the next step is Functional](https://blog.ploeh.dk/2014/03/10/solid-the-next-step-is-functional/)
-[Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53)
+[SOLID: the next step is Functional](https://blog.ploeh.dk/2014/03/10/solid-the-next-step-is-functional/)<br/>
+[Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53)<br/>
 
 #### Curry function:
-[Curry and Function Composition](https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983)
-[Why Curry Helps](https://hughfdjackson.com/javascript/why-curry-helps/)
-[Perpetual Currying in JavaScript](https://codeburst.io/perpetual-currying-in-javascript-5ae1c749adc5)
+[Curry and Function Composition](https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983)<br/>
+[Why Curry Helps](https://hughfdjackson.com/javascript/why-curry-helps/)<br/>
+[Perpetual Currying in JavaScript](https://codeburst.io/perpetual-currying-in-javascript-5ae1c749adc5)<br/>
 
 
 ---
