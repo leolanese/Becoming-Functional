@@ -1,6 +1,7 @@
 # Do Declarative programming
 
-> FP is a declarative paradigm software development style, like IP or OOP, thats keeps 'functions' and 'data' separate
+- FP is a declarative paradigm software development style, like IP or OOP, thats keeps 'functions' and 'data' separated.
+- Separate this long function into shorter functions, each with a single purpose.
 
 
 // instead of use Imperative Programming
