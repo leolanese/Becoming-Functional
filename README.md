@@ -10,7 +10,13 @@ The short answer is, they do what mathematicians do: They cheat." - [James Sincl
 
 <br />
 Here there is a list of <b>Actions</b> that we can consider to have in mind if we want to get into Functional Programming.
-Please don't rush. Take your time. 
+
+
+
+## ADVICE
+
+Open up your minds to the possibility of a world made up solely of "functions" an alternative model of the world.
+<br/>Please don't rush. Take your time. 
 <br/><br/>
 Functional programming isn't a specific tool, but a way of writing code. Learning FP sometimes is a bit cryptic and code looks weird in the beginning. Learning Functional Programming takes a while to master it and some other times we need to stop doing what we used to do, moving away from old habits is the hardest part, and try a different way of doing the same thing, pushing ourselves out of the comfortable zone. So, please be patient and open your mind. <br/>
 <br />
