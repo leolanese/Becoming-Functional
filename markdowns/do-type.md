@@ -1,6 +1,7 @@
 ### Hindley-Milner
 
 ### The 'Type System':
+
 Types are the meta language that enables people from all different backgrounds to communicate succinctly and effectively.
 For the most part, they're written with a system called "Hindley-Milner".
 <br/>
@@ -23,6 +24,24 @@ A function from Number to Number. In other words: A function that recieved a 'Nu
 <b>If this is a 'Pure Function' this 'Type System' declaration will remain for ever.</b>
 
 ### How you're going call?
+
 There are type checking tools available for JavaScript such as [Flow](https://flow.org) or the typed dialect, TypeScript. 
-Hindley-Milner type signatures can be found everywhere in the functional world. Adding also simplicity to 'read' and 'write' from 
-any other developers from different backgrounds.
+Hindley-Milner type signatures can be found everywhere in the functional world. 
+Adding also simplicity to 'read' and 'write' from any other developers from different backgrounds.
+
+In typescript, you can create a type, not only for normal objects, but also for functions.
+
+```javascript
+type GenericFunction<ArgType> = (
+   instance: ArgType,
+   ...otherArgs: Array<any>
+) => string
+
+const func1: GenericFunction<Test> = (inst) => { 
+  //code 
+}
+
+const func2: GenericFunction<Test2> = (inst, text:string) => {
+  // more code 
+}
+```
