@@ -88,26 +88,24 @@ This is the second part of the Functional Programming introduction and a more pr
 
 ---
 
-### { 'L e o   L a n e s e',
+<h5> { 'Leo Lanese',<br>
+       'Building Inspiring Responsive Reactive Solutions',<br>
+       'London, UK' }<br>
+</h5>
+<h5>Portfolio
+<a href="http://www.leolanese.com" target="_blank">http://www.leolanese.com</a>
+</h5>
+<h5>Twitter:
+<a href="http://twitter.com/LeoLaneseltd" target="_blank">twitter.com/LeoLaneseltd</a>
+</h5>
+<h5>Questions / Suggestion / Recommendation ?
+<a href="mail:to">developer@leolanese.com</a>
+</h5>
+<h5>DEV.to:
+<a href="http://www.dev.to/leolanese" target="_blank">www.dev.to/leolanese</a>
+</h5>
+<h5>Blog:
+<a href="http://www.leolanese.com/blog" target="_blank">leolanese.com/blog</a>
+</h5>
 
-#### 'I  B u i l d   I n s p i r i n g   R e s p o n s i v e   R e a c t i v e  S o l u t i o n s',
-
-#### 'L O N D O N ,  U K' }
-
-## My Portfolio
-[http://www.leolanese.com](http://www.leolanese.com)  
-
-
-## My Blog:
-[www.leolanese.com/blog](http://www.leolanese.com/blog)  
-
-
-## Twitter:
-
-Follow me at:
-[http://twitter.com/LeoLaneseltd](http://twitter.com/LeoLaneseltd)  
-
-
-## Questions / Suggestion / Recommendation ?
-[developer@leolanese.com](developer@leolanese.com)
 
